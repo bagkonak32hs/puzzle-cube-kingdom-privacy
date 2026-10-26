@@ -1,15 +1,59 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
 <title>Puzzle Cube Kingdom - Privacy Policy</title>
+<meta name="description" content="Privacy policy of the Puzzle Cube Kingdom Android game - English, Turkish, German, Spanish.">
+<link rel="icon" href="icon.png">
 <style>
-body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:20px 16px 60px;line-height:1.6;color:#1b1236;background:#fbf9ff}
-h1{color:#3b2a78;margin-top:2.2em}h2{color:#3b2a78;font-size:1.1em;margin-top:1.6em}a{color:#5a3fc0}
-nav{position:sticky;top:0;background:#fbf9ffee;padding:10px 0;border-bottom:1px solid #ddd}
-section{border-top:3px solid #f5c451;margin-top:2em}
-</style></head><body>
-<nav><a href="#en">English</a> | <a href="#tr">Türkçe</a> | <a href="#de">Deutsch</a> | <a href="#es">Español</a></nav>
-<section id="en" lang="en"><h1>Privacy Policy - Puzzle Cube Kingdom</h1>
-<p><em>Last updated: 2026-10-27</em></p>
+:root{--ink:#1b1236;--royal:#2a1c52;--royal2:#3b2a78;--gold:#f5c451;--gold2:#ffdf8a;--paper:#fbf9ff;--text:#2a2342;--muted:#6b6385}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);
+ background:radial-gradient(1200px 500px at 50% -120px,#4a3590 0%,#1b1236 62%) fixed,#1b1236;line-height:1.7}
+header{text-align:center;padding:42px 20px 18px;color:#fff}
+.logo{width:96px;height:96px;border-radius:24px;box-shadow:0 8px 30px #0008,0 0 0 2px #f5c45155}
+header h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(26px,5vw,38px);margin:16px 0 4px;letter-spacing:.5px;
+ background:linear-gradient(180deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{margin:0;color:#cfc6ee;font-size:15px}
+nav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:8px;padding:12px 10px;
+ background:#1b1236d9;backdrop-filter:blur(8px);border-bottom:1px solid #f5c45133}
+.tab{color:#e7e0ff;text-decoration:none;font-weight:600;font-size:14px;padding:8px 16px;border-radius:999px;border:1px solid #ffffff22;transition:.15s}
+.tab:hover{background:#ffffff14}
+.tab.on{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#2a1c00;border-color:transparent;box-shadow:0 2px 12px #f5c45155}
+main{max-width:820px;margin:0 auto;padding:22px 16px 60px}
+section{display:none}
+section.show{display:block}
+/* no-JS fallback: show the targeted language, English by default */
+body:not(.js) section:target{display:block}
+body:not(.js):not(:has(section:target)) #en{display:block}
+.lead{color:#d9d2f5;text-align:center;margin:6px 0 18px;font-size:15px}
+.card{background:var(--paper);border-radius:22px;padding:28px clamp(18px,4vw,40px) 34px;box-shadow:0 18px 50px #0007;border-top:5px solid var(--gold)}
+.chip{display:inline-block;margin:0 0 10px;padding:4px 12px;border-radius:999px;background:#f5c4511f;color:#7a5a00;font-size:13px;font-weight:600}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:1.15em;color:var(--royal2);margin:1.9em 0 .4em;padding-left:14px;border-left:4px solid var(--gold)}
+p,li{font-size:16px}
+ul{padding-left:1.2em}li{margin:.35em 0}
+li::marker{color:var(--gold)}
+a{color:#5a3fc0;text-underline-offset:3px}
+.top{text-align:center;margin:18px 0 0}.top a{color:#cfc6ee;font-size:14px;text-decoration:none}
+footer{text-align:center;color:#9f95c8;font-size:13px;padding:0 16px 40px}
+@media (prefers-color-scheme:dark){
+ .card{background:#211a3d;color:#e9e4fb}h2{color:var(--gold2)}.chip{background:#f5c45126;color:var(--gold2)}a{color:#b9a7ff}
+}
+@media print{body{background:#fff}header,nav,.top,footer{display:none}section{display:block!important;page-break-after:always}.card{box-shadow:none}}
+</style>
+</head>
+<body id="top">
+<header>
+<img class="logo" src="icon.png" alt="Puzzle Cube Kingdom icon" width="96" height="96">
+<h1>Puzzle Cube Kingdom</h1>
+<p id="subtitle">Privacy Policy</p>
+</header>
+<nav aria-label="Language"><a class="tab" href="#en" data-lang="en" hreflang="en">English</a><a class="tab" href="#tr" data-lang="tr" hreflang="tr">Türkçe</a><a class="tab" href="#de" data-lang="de" hreflang="de">Deutsch</a><a class="tab" href="#es" data-lang="es" hreflang="es">Español</a></nav>
+<main><section id="en" lang="en" data-title="Privacy Policy - Puzzle Cube Kingdom"><div class="lead">How the game handles your information</div><div class="card">
+<p class="chip">Last updated: 2026-10-27</p>
 <p>This policy explains what information the game <strong>Puzzle Cube Kingdom</strong> ("the game", "we") handles.</p>
 <h2>1. Summary</h2>
 <ul>
@@ -45,9 +89,8 @@ section{border-top:3px solid #f5c451;margin-top:2em}
 <p>If this policy changes we will update the date above and, where required, inform you in the game.</p>
 <h2>10. Contact</h2>
 <p><a href="mailto:greendevcode@gmail.com">greendevcode@gmail.com</a></p>
-</section>
-<section id="tr" lang="tr"><h1>Gizlilik Politikası - Puzzle Cube Kingdom</h1>
-<p><em>Son güncelleme: 2026-10-27</em></p>
+</div><p class="top"><a href="#top">&uarr; Back to top</a></p></section><section id="tr" lang="tr" data-title="Gizlilik Politikası - Puzzle Cube Kingdom"><div class="lead">Oyunun bilgilerini nasıl işlediği</div><div class="card">
+<p class="chip">Son güncelleme: 2026-10-27</p>
 <p>Bu politika, <strong>Puzzle Cube Kingdom</strong> oyununun ("oyun", "biz") hangi bilgileri işlediğini açıklar.</p>
 <h2>1. Özet</h2>
 <ul>
@@ -83,9 +126,8 @@ section{border-top:3px solid #f5c451;margin-top:2em}
 <p>Bu politika değişirse yukarıdaki tarihi güncelleriz ve gerekirse oyunda bilgilendiririz.</p>
 <h2>10. İletişim</h2>
 <p><a href="mailto:greendevcode@gmail.com">greendevcode@gmail.com</a></p>
-</section>
-<section id="de" lang="de"><h1>Datenschutzerklärung - Puzzle Cube Kingdom</h1>
-<p><em>Zuletzt aktualisiert: 2026-10-27</em></p>
+</div><p class="top"><a href="#top">&uarr; Başa dön</a></p></section><section id="de" lang="de" data-title="Datenschutzerklärung - Puzzle Cube Kingdom"><div class="lead">Wie das Spiel mit deinen Informationen umgeht</div><div class="card">
+<p class="chip">Zuletzt aktualisiert: 2026-10-27</p>
 <p>Diese Erklärung beschreibt, welche Informationen das Spiel <strong>Puzzle Cube Kingdom</strong> („das Spiel“, „wir“) verarbeitet.</p>
 <h2>1. Zusammenfassung</h2>
 <ul>
@@ -121,9 +163,8 @@ section{border-top:3px solid #f5c451;margin-top:2em}
 <p>Ändert sich diese Erklärung, aktualisieren wir das obige Datum und informieren dich bei Bedarf im Spiel.</p>
 <h2>10. Kontakt</h2>
 <p><a href="mailto:greendevcode@gmail.com">greendevcode@gmail.com</a></p>
-</section>
-<section id="es" lang="es"><h1>Política de privacidad - Puzzle Cube Kingdom</h1>
-<p><em>Última actualización: 2026-10-27</em></p>
+</div><p class="top"><a href="#top">&uarr; Nach oben</a></p></section><section id="es" lang="es" data-title="Política de privacidad - Puzzle Cube Kingdom"><div class="lead">Cómo trata el juego tu información</div><div class="card">
+<p class="chip">Última actualización: 2026-10-27</p>
 <p>Esta política explica qué información trata el juego <strong>Puzzle Cube Kingdom</strong> («el juego», «nosotros»).</p>
 <h2>1. Resumen</h2>
 <ul>
@@ -159,5 +200,46 @@ section{border-top:3px solid #f5c451;margin-top:2em}
 <p>Si esta política cambia, actualizaremos la fecha de arriba y, cuando sea necesario, te informaremos en el juego.</p>
 <h2>10. Contacto</h2>
 <p><a href="mailto:greendevcode@gmail.com">greendevcode@gmail.com</a></p>
-</section>
-</body></html>
+</div><p class="top"><a href="#top">&uarr; Volver arriba</a></p></section></main>
+<footer>&copy; Puzzle Cube Kingdom &middot; <a href="mailto:greendevcode@gmail.com" style="color:#cfc6ee">greendevcode@gmail.com</a></footer>
+<script>
+(function(){
+  document.body.className+=' js';
+  var langs=['en','tr','de','es'];
+  var labels={en:'Privacy Policy',tr:'Gizlilik Politikası',de:'Datenschutzerklärung',es:'Política de privacidad'};
+  function pick(){
+    var h=(location.hash||'').replace('#','').toLowerCase();
+    if(langs.indexOf(h)>-1)return h;
+    var n=((navigator.languages&&navigator.languages[0])||navigator.language||'en').slice(0,2).toLowerCase();
+    return langs.indexOf(n)>-1?n:'en';
+  }
+  function show(l,push){
+    langs.forEach(function(k){
+      document.getElementById(k).className=(k===l)?'show':'';
+    });
+    [].forEach.call(document.querySelectorAll('.tab'),function(t){
+      var on=t.getAttribute('data-lang')===l;
+      t.className='tab'+(on?' on':'');
+      if(on)t.setAttribute('aria-current','true');else t.removeAttribute('aria-current');
+    });
+    document.documentElement.lang=l;
+    document.title='Puzzle Cube Kingdom - '+labels[l];
+    document.getElementById('subtitle').textContent=labels[l];
+    if(push&&history.replaceState)history.replaceState(null,'','#'+l);
+  }
+  [].forEach.call(document.querySelectorAll('.tab'),function(t){
+    t.addEventListener('click',function(e){
+      e.preventDefault();
+      show(t.getAttribute('data-lang'),true);
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+  document.querySelectorAll('.top a').forEach(function(a){
+    a.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});
+  });
+  window.addEventListener('hashchange',function(){var h=location.hash.replace('#','');if(langs.indexOf(h)>-1)show(h,false);});
+  show(pick(),false);
+})();
+</script>
+</body>
+</html>
